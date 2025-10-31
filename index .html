@@ -849,7 +849,7 @@
             </div>
             <div class="about-content">
                 <div class="profile-img-container">
-                    <img src="./assets/sara.jpg" alt="Sara Arkoub- Software Engineer" class="profile-photo">
+                    <img src="./assets/images/sara.jpg" alt="Sara Arkoub- Software Engineer" class="profile-photo">
                 </div>
                 <div>
                     <h3 style="color: var(--primary); font-size: 2rem; margin-bottom: 1.5rem;">Hello! I'm Sara Arkoub</h3>
@@ -1174,7 +1174,7 @@
             e.preventDefault();
             // Create a temporary link to download the CV
             const link = document.createElement('a');
-            link.href = './assets/documents/cv_sara'; // Replace with actual CV path
+            link.href = './assets/documents/cv_sara.pdf'; // CHEMIN CORRIGÉ
             link.download = 'cv_sara.pdf';
             document.body.appendChild(link);
             link.click();
